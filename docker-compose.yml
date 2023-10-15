@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  catalog.api:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: src/Services/Catalog/Catalog.API/Dockerfile
+
+  backet.api:
+    image: ${DOCKER_REGISTRY-}backetapi
+    build:
+      context: .
+      dockerfile: src/Services/Backet/Backet.API/Dockerfile
+
+
+  auth.api:
+    image: ${DOCKER_REGISTRY-}authapi
+    build:
+      context: .
+      dockerfile: src/Services/Auth/Auth.API/Dockerfile
+
