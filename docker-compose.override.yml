@@ -18,3 +18,10 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "5020:80"
+
+  ocelotapigateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5030:80"
+
