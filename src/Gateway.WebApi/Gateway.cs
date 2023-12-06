@@ -1,6 +1,6 @@
 namespace Gateway.WebApi
 {
-    public class WeatherForecast
+    public class Gateway
     {
         public DateOnly Date { get; set; }
 
