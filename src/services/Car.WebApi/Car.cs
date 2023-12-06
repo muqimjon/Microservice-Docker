@@ -1,6 +1,6 @@
 namespace Car.WebApi
 {
-    public class WeatherForecast
+    public class Car
     {
         public DateOnly Date { get; set; }
 
