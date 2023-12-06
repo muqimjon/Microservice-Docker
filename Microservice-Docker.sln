@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.WebApi", "src\services
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.WebApi", "src\services\Car.WebApi\Car.WebApi.csproj", "{6373EA2B-D5B5-42BE-B5FD-52273A419E47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.WebApi", "src\services\Company.WebApi\Company.WebApi.csproj", "{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6373EA2B-D5B5-42BE-B5FD-52273A419E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6373EA2B-D5B5-42BE-B5FD-52273A419E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6373EA2B-D5B5-42BE-B5FD-52273A419E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{761E1D40-DB59-4BED-8D78-41D3257E111B} = {1310E0A3-6BF4-4F76-81A5-4B19F9C02252}
 		{7A03F29B-B589-4CFE-98FB-27CA81BFCDD3} = {761E1D40-DB59-4BED-8D78-41D3257E111B}
 		{6373EA2B-D5B5-42BE-B5FD-52273A419E47} = {761E1D40-DB59-4BED-8D78-41D3257E111B}
+		{F7806B4C-1FD1-49CB-A080-66BFC5AD9C75} = {761E1D40-DB59-4BED-8D78-41D3257E111B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC39E23F-CBE0-4848-83CE-16811615ACF0}
