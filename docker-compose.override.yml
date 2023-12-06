@@ -6,13 +6,13 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "5000:80"
-  
+
   car.webapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "5010:80"
-      
+
   company.webapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -25,3 +25,4 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "5030:80"
+
