@@ -1,0 +1,42 @@
+{
+  "Routes": [
+    {
+      // http://localhost:5010/api/Cars/get
+      "DownstreamPathTemplate": "/api/cars/get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "car.webapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/cars",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/companies/get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "company.webapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/companies",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+    },
+    {
+          // http://localhost:5030/api/users/get
+      "DownstreamPathTemplate": "/api/users/get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "User.WebApi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/users",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ]
+}

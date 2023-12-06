@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  gateway.webapi:
+    image: ${DOCKER_REGISTRY-}gatewaywebapi
+    build:
+      context: .
+      dockerfile: src/Gateway.WebApi/Dockerfile
+
+  car.webapi:
+    image: ${DOCKER_REGISTRY-}carwebapi
+    build:
+      context: .
+      dockerfile: src/services/Car.WebApi/Dockerfile
+
+  company.webapi:
+    image: ${DOCKER_REGISTRY-}companywebapi
+    build:
+      context: .
+      dockerfile: src/services/Company.WebApi/Dockerfile
+
+  user.webapi:
+    image: ${DOCKER_REGISTRY-}userwebapi
+    build:
+      context: .
+      dockerfile: src/services/User.WebApi/Dockerfile
+

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Car.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class CarsController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -11,7 +11,7 @@ namespace Car.WebApi.Controllers
             "CarsController", "CarsController"
         };
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("get")]
         public IEnumerable<Car> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new Car
